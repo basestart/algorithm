@@ -1,3 +1,3 @@
 # algorithm
 for practice
-cover
+revert
