@@ -1,0 +1,24 @@
+{
+  "name": "algorithm",
+  "version": "1.0.0",
+  "description": "for practice\r revert",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "jest": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fridego/algorithm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fridego/algorithm/issues"
+  },
+  "homepage": "https://github.com/fridego/algorithm#readme",
+  "dependencies": {
+    "jest": "^23.3.0"
+  }
+}
