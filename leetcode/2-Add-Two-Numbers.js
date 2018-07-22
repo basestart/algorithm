@@ -27,10 +27,10 @@ function ListNode(val) {
 }
 
 module.exports = function addTwoNumbers(l1, l2, carry) {
-    let tmp = carry || 0;
+    carry = carry || 0;
     let [v1, v2] = [l1.val, l2.val];
-    let resNode = new ListNode((v1 + v2 + tmp) % 10);
-    let nextcarry = v1 + v2 + tmp - 9 > 0 ? 1 : 0;
+    let resNode = new ListNode((v1 + v2 + carry) % 10);
+    let nextcarry = v1 + v2 + carry - 9 > 0 ? 1 : 0;
     if(l1.next || l2.next || nextcarry) {
         l1 = l1.next || new ListNode(0);
         l2 = l2.next || new ListNode(0);
