@@ -30,14 +30,15 @@ module.exports = function convert (s, numRows) {
     }
     let str = '';
     let step = (numRows - 1) * 2;
+    let mid = numRows - 1;
     let obj = {};
     for(let i = 0; i < numRows; i++) {
         obj[i] = '';
     }
     for(let i = 0; i < s.length; i++){
         let key = i % step;
-        if(key > step / 2) {
-            key = step / 2 - i % (step / 2);
+        if(key > mid) {
+            key = mid - (i % mid);
         }
         obj[key] += s[i];
     }

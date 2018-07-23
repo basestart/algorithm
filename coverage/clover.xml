@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1532351529935" clover="3.2.0">
-  <project timestamp="1532351529935" name="All files">
-    <metrics statements="72" coveredstatements="72" conditionals="37" coveredconditionals="37" methods="8" coveredmethods="8" elements="117" coveredelements="117" complexity="0" loc="72" ncloc="72" packages="1" files="6" classes="6">
+<coverage generated="1532351776762" clover="3.2.0">
+  <project timestamp="1532351776763" name="All files">
+    <metrics statements="73" coveredstatements="73" conditionals="37" coveredconditionals="37" methods="8" coveredmethods="8" elements="118" coveredelements="118" complexity="0" loc="73" ncloc="73" packages="1" files="6" classes="6">
       <file name="1-sum.js" path="C:\fe\github\algorithm\leetcode\1-sum.js">
         <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
         <line num="16" count="1" type="stmt"/>
@@ -74,7 +74,7 @@
         <line num="53" count="2" type="stmt"/>
       </file>
       <file name="6-zig-zag-conversion.js" path="C:\fe\github\algorithm\leetcode\6-zig-zag-conversion.js">
-        <metrics statements="16" coveredstatements="16" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <metrics statements="17" coveredstatements="17" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
         <line num="27" count="1" type="stmt"/>
         <line num="28" count="5" type="cond" truecount="2" falsecount="0"/>
         <line num="29" count="3" type="stmt"/>
@@ -82,15 +82,16 @@
         <line num="32" count="2" type="stmt"/>
         <line num="33" count="2" type="stmt"/>
         <line num="34" count="2" type="stmt"/>
-        <line num="35" count="7" type="stmt"/>
-        <line num="37" count="2" type="stmt"/>
-        <line num="38" count="28" type="stmt"/>
-        <line num="39" count="28" type="cond" truecount="2" falsecount="0"/>
-        <line num="40" count="7" type="stmt"/>
-        <line num="42" count="28" type="stmt"/>
-        <line num="44" count="2" type="stmt"/>
-        <line num="45" count="7" type="stmt"/>
-        <line num="47" count="2" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="36" count="7" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="39" count="28" type="stmt"/>
+        <line num="40" count="28" type="cond" truecount="2" falsecount="0"/>
+        <line num="41" count="7" type="stmt"/>
+        <line num="43" count="28" type="stmt"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="46" count="7" type="stmt"/>
+        <line num="48" count="2" type="stmt"/>
       </file>
     </metrics>
   </project>
