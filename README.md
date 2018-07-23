@@ -1,4 +1,7 @@
 # algorithm
-for practice
 
-## test jest learning
+## leetcode
+
+## data structure
+
+![test](test.png)

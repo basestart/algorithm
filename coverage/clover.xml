@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1532351776762" clover="3.2.0">
-  <project timestamp="1532351776763" name="All files">
+<coverage generated="1532352038915" clover="3.2.0">
+  <project timestamp="1532352038915" name="All files">
     <metrics statements="73" coveredstatements="73" conditionals="37" coveredconditionals="37" methods="8" coveredmethods="8" elements="118" coveredelements="118" complexity="0" loc="73" ncloc="73" packages="1" files="6" classes="6">
       <file name="1-sum.js" path="C:\fe\github\algorithm\leetcode\1-sum.js">
         <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
