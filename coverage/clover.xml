@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1532328395545" clover="3.2.0">
-  <project timestamp="1532328395546" name="All files">
-    <metrics statements="42" coveredstatements="42" conditionals="31" coveredconditionals="31" methods="6" coveredmethods="6" elements="79" coveredelements="79" complexity="0" loc="42" ncloc="42" packages="1" files="4" classes="4">
+<coverage generated="1532348630558" clover="3.2.0">
+  <project timestamp="1532348630558" name="All files">
+    <metrics statements="56" coveredstatements="56" conditionals="33" coveredconditionals="33" methods="7" coveredmethods="7" elements="96" coveredelements="96" complexity="0" loc="56" ncloc="56" packages="1" files="5" classes="5">
       <file name="1-sum.js" path="C:\fe\github\algorithm\leetcode\1-sum.js">
         <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
         <line num="16" count="1" type="stmt"/>
@@ -51,10 +51,27 @@
       </file>
       <file name="4-median-of-two-sorted-arrays.js" path="C:\fe\github\algorithm\leetcode\4-median-of-two-sorted-arrays.js">
         <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="8" type="stmt"/>
-        <line num="5" count="59" type="stmt"/>
-        <line num="6" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="8" type="stmt"/>
+        <line num="30" count="59" type="stmt"/>
+        <line num="31" count="8" type="cond" truecount="2" falsecount="0"/>
+      </file>
+      <file name="48-rotate-image.js" path="C:\fe\github\algorithm\leetcode\48-rotate-image.js">
+        <metrics statements="14" coveredstatements="14" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="3" type="stmt"/>
+        <line num="38" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="40" count="5" type="stmt"/>
+        <line num="41" count="9" type="stmt"/>
+        <line num="42" count="9" type="stmt"/>
+        <line num="43" count="9" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="47" count="5" type="stmt"/>
+        <line num="48" count="8" type="stmt"/>
+        <line num="49" count="8" type="stmt"/>
+        <line num="50" count="8" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
       </file>
     </metrics>
   </project>
