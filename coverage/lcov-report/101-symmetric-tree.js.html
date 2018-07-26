@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Code coverage report for 70-climbing-stairs.js</title>
+    <title>Code coverage report for 101-symmetric-tree.js</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="prettify.css" />
     <link rel="stylesheet" href="base.css" />
@@ -16,28 +16,28 @@
 <div class='wrapper'>
   <div class='pad1'>
     <h1>
-      <a href="index.html">All files</a> 70-climbing-stairs.js
+      <a href="index.html">All files</a> 101-symmetric-tree.js
     </h1>
     <div class='clearfix'>
       <div class='fl pad1y space-right2'>
-        <span class="strong">100% </span>
+        <span class="strong">81.82% </span>
         <span class="quiet">Statements</span>
-        <span class='fraction'>11/11</span>
+        <span class='fraction'>9/11</span>
       </div>
       <div class='fl pad1y space-right2'>
-        <span class="strong">100% </span>
+        <span class="strong">85.71% </span>
         <span class="quiet">Branches</span>
-        <span class='fraction'>6/6</span>
+        <span class='fraction'>12/14</span>
       </div>
       <div class='fl pad1y space-right2'>
         <span class="strong">100% </span>
         <span class="quiet">Functions</span>
-        <span class='fraction'>1/1</span>
+        <span class='fraction'>2/2</span>
       </div>
       <div class='fl pad1y space-right2'>
-        <span class="strong">100% </span>
+        <span class="strong">88.89% </span>
         <span class="quiet">Lines</span>
-        <span class='fraction'>8/8</span>
+        <span class='fraction'>8/9</span>
       </div>
     </div>
     <p class="quiet">
@@ -79,7 +79,22 @@
 <a name='L31'></a><a href='#L31'>31</a>
 <a name='L32'></a><a href='#L32'>32</a>
 <a name='L33'></a><a href='#L33'>33</a>
-<a name='L34'></a><a href='#L34'>34</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L34'></a><a href='#L34'>34</a>
+<a name='L35'></a><a href='#L35'>35</a>
+<a name='L36'></a><a href='#L36'>36</a>
+<a name='L37'></a><a href='#L37'>37</a>
+<a name='L38'></a><a href='#L38'>38</a>
+<a name='L39'></a><a href='#L39'>39</a>
+<a name='L40'></a><a href='#L40'>40</a>
+<a name='L41'></a><a href='#L41'>41</a>
+<a name='L42'></a><a href='#L42'>42</a>
+<a name='L43'></a><a href='#L43'>43</a>
+<a name='L44'></a><a href='#L44'>44</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -104,48 +119,63 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">6x</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">21x</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/**
- * 假设你正在爬楼梯。需要 n 步你才能到达楼顶。
- * 每次你可以爬 1 或 2 个台阶。你有多少种不同的方法可以爬到楼顶呢？
- * 注意：给定 n 是一个正整数。
- * 示例 1：
- * 输入： 2
- * 输出： 2
- * 解释： 有两种方法可以爬到楼顶。
- * 1.  1 步 + 1 步
- * 2.  2 步
- * 示例 2：
- * 输入： 3
- * 输出： 3
- * 解释： 有三种方法可以爬到楼顶。
- * 1.  1 步 + 1 步 + 1 步
- * 2.  1 步 + 2 步
- * 3.  2 步 + 1 步
+ * 给定一个二叉树，检查它是否是镜像对称的。
+ * 例如，二叉树 [1,2,2,3,4,4,3] 是对称的。
+ *     1
+ *    / \
+ *   2   2
+ *  / \ / \
+ * 3  4 4  3 
+ * 但是下面这个 [1,2,2,null,3,null,3] 则不是镜像对称的:
+ *   1
+ *  / \
+ * 2   2
+ *  \   \
+ *   3    3
+ * 说明:
+ * 如果你可以运用递归和迭代两种方法解决这个问题，会很加分。
  */
 &nbsp;
  /**
- * @param {number} n
- * @return {number}
+ * Definition for a binary tree node.
+ * function TreeNode(val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ * }
  */
+/**
+ * @param {TreeNode} root
+ * @return {boolean}
+ */
+module.exports = function isSymmetric (root) {
+    return comp(root, root)
+};
 &nbsp;
-module.exports = function climbStairs (n) {
-    if(n &lt;= 0) return 0;
-    if(n === 1) return 1;
-    if(n === 2) return 2;
-    let [start, end] = [1, 2];
-    for(let i = 3; i &lt; n + 1; i++) {
-        [start, end] = [end, start + end];
+function comp(l, r) {
+    if(!l &amp;&amp; !r) return true;
+    <span class="missing-if-branch" title="if path not taken" >I</span>if(!!l ^ !!r) <span class="cstat-no" title="statement not covered" >return false;</span>
+    <span class="missing-if-branch" title="if path not taken" >I</span>if(l.val !== r.val) {
+<span class="cstat-no" title="statement not covered" >        return false;</span>
     }
-    return end;
-};</pre></td></tr>
+    if(!!l.left ^ !! r.right || !!l.right ^ !! r.left) {
+        return false;
+    }
+    return comp(l.left, r.right) &amp;&amp; comp(l.right, r.left);
+}</pre></td></tr>
 </table></pre>
 <div class='push'></div><!-- for sticky footer -->
 </div><!-- /wrapper -->

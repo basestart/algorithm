@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1532591805149" clover="3.2.0">
-  <project timestamp="1532591805150" name="All files">
-    <metrics statements="104" coveredstatements="104" conditionals="57" coveredconditionals="57" methods="13" coveredmethods="13" elements="174" coveredelements="174" complexity="0" loc="104" ncloc="104" packages="1" files="9" classes="9">
+<coverage generated="1532596281731" clover="3.2.0">
+  <project timestamp="1532596281732" name="All files">
+    <metrics statements="113" coveredstatements="112" conditionals="71" coveredconditionals="69" methods="15" coveredmethods="15" elements="199" coveredelements="196" complexity="0" loc="113" ncloc="113" packages="1" files="10" classes="10">
       <file name="1-sum.js" path="C:\fe\github\algorithm\leetcode\1-sum.js">
         <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
         <line num="16" count="1" type="stmt"/>
@@ -13,6 +13,18 @@
         <line num="22" count="6" type="cond" truecount="2" falsecount="0"/>
         <line num="23" count="2" type="stmt"/>
         <line num="26" count="1" type="stmt"/>
+      </file>
+      <file name="101-symmetric-tree.js" path="C:\fe\github\algorithm\leetcode\101-symmetric-tree.js">
+        <metrics statements="9" coveredstatements="8" conditionals="14" coveredconditionals="12" methods="2" coveredmethods="2"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="31" count="4" type="stmt"/>
+        <line num="35" count="21" type="cond" truecount="4" falsecount="0"/>
+        <line num="36" count="10" type="cond" truecount="1" falsecount="1"/>
+        <line num="37" count="10" type="cond" truecount="1" falsecount="1"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="40" count="10" type="cond" truecount="4" falsecount="0"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="43" count="9" type="cond" truecount="2" falsecount="0"/>
       </file>
       <file name="14-longestCommonPrefix.js" path="C:\fe\github\algorithm\leetcode\14-longestCommonPrefix.js">
         <metrics statements="12" coveredstatements="12" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
