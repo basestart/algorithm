@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1534088330457" clover="3.2.0">
-  <project timestamp="1534088330457" name="All files">
-    <metrics statements="164" coveredstatements="157" conditionals="91" coveredconditionals="84" methods="23" coveredmethods="22" elements="278" coveredelements="263" complexity="0" loc="164" ncloc="164" packages="2" files="12" classes="12">
+<coverage generated="1534090282629" clover="3.2.0">
+  <project timestamp="1534090282629" name="All files">
+    <metrics statements="164" coveredstatements="159" conditionals="91" coveredconditionals="86" methods="23" coveredmethods="22" elements="278" coveredelements="267" complexity="0" loc="164" ncloc="164" packages="2" files="12" classes="12">
       <package name="ds">
-        <metrics statements="51" coveredstatements="45" conditionals="20" coveredconditionals="15" methods="8" coveredmethods="7"/>
+        <metrics statements="51" coveredstatements="47" conditionals="20" coveredconditionals="17" methods="8" coveredmethods="7"/>
         <file name="linkList.js" path="D:\github\algorithm\ds\linkList.js">
-          <metrics statements="46" coveredstatements="41" conditionals="20" coveredconditionals="15" methods="6" coveredmethods="6"/>
+          <metrics statements="46" coveredstatements="43" conditionals="20" coveredconditionals="17" methods="6" coveredmethods="6"/>
           <line num="1" count="1" type="stmt"/>
           <line num="3" count="1" type="stmt"/>
-          <line num="5" count="9" type="stmt"/>
-          <line num="6" count="9" type="stmt"/>
+          <line num="5" count="11" type="stmt"/>
+          <line num="6" count="11" type="stmt"/>
           <line num="9" count="15" type="cond" truecount="1" falsecount="1"/>
           <line num="10" count="0" type="stmt"/>
           <line num="12" count="15" type="cond" truecount="2" falsecount="0"/>
@@ -17,14 +17,14 @@
           <line num="15" count="7" type="stmt"/>
           <line num="16" count="7" type="stmt"/>
           <line num="17" count="7" type="stmt"/>
-          <line num="21" count="1" type="cond" truecount="1" falsecount="1"/>
-          <line num="22" count="0" type="stmt"/>
+          <line num="21" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="22" count="1" type="stmt"/>
           <line num="24" count="1" type="stmt"/>
           <line num="25" count="1" type="stmt"/>
           <line num="26" count="1" type="stmt"/>
-          <line num="30" count="5" type="stmt"/>
-          <line num="31" count="5" type="cond" truecount="1" falsecount="1"/>
-          <line num="32" count="0" type="stmt"/>
+          <line num="30" count="6" type="stmt"/>
+          <line num="31" count="6" type="cond" truecount="2" falsecount="0"/>
+          <line num="32" count="1" type="stmt"/>
           <line num="35" count="5" type="cond" truecount="2" falsecount="0"/>
           <line num="36" count="2" type="cond" truecount="2" falsecount="0"/>
           <line num="37" count="1" type="stmt"/>
@@ -56,9 +56,9 @@
         <file name="node.js" path="D:\github\algorithm\ds\node.js">
           <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
           <line num="1" count="1" type="stmt"/>
-          <line num="2" count="16" type="stmt"/>
-          <line num="3" count="16" type="stmt"/>
-          <line num="4" count="16" type="stmt"/>
+          <line num="2" count="17" type="stmt"/>
+          <line num="3" count="17" type="stmt"/>
+          <line num="4" count="17" type="stmt"/>
           <line num="5" count="0" type="stmt"/>
         </file>
       </package>

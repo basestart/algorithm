@@ -13,6 +13,13 @@ test('apend 1', () => {
     expect(node.pEnd.val).toBe(1);
 })
 
+test('prepend 1', () => {
+    let node = new linkList();
+    node.prepend(1);
+    expect(node.pHead.val).toBe(1);
+    expect(node.pEnd.val).toBe(1);
+})
+
 test('apend 1, 2', () => {
     let node = new linkList();
     node.append(1);
@@ -38,6 +45,12 @@ test('apend 1, 2, and delete 2', () => {
     node.delete(2);
     expect(node.pHead.val).toBe(1);
     expect(node.pEnd.val).toBe(1);
+})
+
+test('delete 2', () => {
+    let node = new linkList();
+    let res = node.delete(2);
+    expect(res).toBe(null);
 })
 
 test('apend 1, and delete 1', () => {
