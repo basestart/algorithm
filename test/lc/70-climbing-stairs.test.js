@@ -1,4 +1,4 @@
-const climbStairs = require('../leetcode/70-climbing-stairs');
+const climbStairs = require('../../leetcode/70-climbing-stairs');
 
 test('expect climbStaris(0) to be 0', () => {
     expect(climbStairs(0)).toBe(0);

@@ -1,4 +1,4 @@
-const addTwoNumbers = require('../leetcode/2-Add-Two-Numbers');
+const addTwoNumbers = require('../../leetcode/2-Add-Two-Numbers');
 
 test ('addTwoNumbers((2 -> 4 -> 3) + (5 -> 6 -> 4)) expect 7 -> 0 -> 8', () => {
     expect(addTwoNumbers({

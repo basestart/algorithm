@@ -1,4 +1,4 @@
-let linkList = require('../ds/linkList');
+let linkList = require('../../ds/linkList');
 
 test('get an init val linkList() get {pHead: null, pEnd: null}', () => {
     let node = new linkList();

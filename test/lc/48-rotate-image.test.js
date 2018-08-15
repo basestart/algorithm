@@ -1,4 +1,4 @@
-const rotate = require('../leetcode/48-rotate-image');
+const rotate = require('../../leetcode/48-rotate-image');
 
 test(`rotate[] to be []`, () => {
     expect(rotate([])).toEqual([]);

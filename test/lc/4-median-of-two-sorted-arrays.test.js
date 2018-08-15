@@ -1,4 +1,4 @@
-const findMedianSortedArrays = require('../leetcode/4-median-of-two-sorted-arrays');
+const findMedianSortedArrays = require('../../leetcode/4-median-of-two-sorted-arrays');
 
 test('expect findMedianSortedArrays([1, 3], [2]) to be 2.0', () => {
     expect(findMedianSortedArrays([1, 3], [2])).toBe(2);

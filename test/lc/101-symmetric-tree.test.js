@@ -1,4 +1,4 @@
-const isSymmetric = require('../leetcode/101-symmetric-tree');
+const isSymmetric = require('../../leetcode/101-symmetric-tree');
 
 test('expect input [1,2,2,3,4,4,3] to equal true', () => {
     expect(isSymmetric({

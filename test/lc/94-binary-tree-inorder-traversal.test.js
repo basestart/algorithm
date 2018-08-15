@@ -1,4 +1,4 @@
-const inorderTraversal = require('../leetcode/94-binary-tree-inorder-traversal');
+const inorderTraversal = require('../../leetcode/94-binary-tree-inorder-traversal');
 
 test('input [] expect to equal []', () => {
     expect(inorderTraversal(null)).toEqual([]);

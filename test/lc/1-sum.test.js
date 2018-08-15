@@ -1,4 +1,4 @@
-const sum = require('../leetcode/1-sum.js');
+const sum = require('../../leetcode/1-sum.js');
 
 test('sum([], target) expect []', () => {
     expect(sum([], 2).length).toEqual(0);

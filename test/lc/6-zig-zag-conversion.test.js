@@ -1,4 +1,4 @@
-const convert = require('../leetcode/6-zig-zag-conversion');
+const convert = require('../../leetcode/6-zig-zag-conversion');
 
 test('convert("", 1) to be ""', () => {
     expect(convert("", 1)).toBe("")

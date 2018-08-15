@@ -1,4 +1,4 @@
-const lengthOfLongestSubstring = require('../leetcode/3-longest-substring-no-repeat');
+const lengthOfLongestSubstring = require('../../leetcode/3-longest-substring-no-repeat');
 
 test('"abcabcbb" expect "abc" return length 3', () => {
     expect(lengthOfLongestSubstring("abcabcbb")).toBe(3)

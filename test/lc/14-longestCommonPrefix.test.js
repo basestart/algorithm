@@ -1,4 +1,4 @@
-const longestCommonPrefix = require('../leetcode/14-longestCommonPrefix');
+const longestCommonPrefix = require('../../leetcode/14-longestCommonPrefix');
 
 test('input [] expect to equal ""', () => {
     expect(longestCommonPrefix([])).toEqual("");
